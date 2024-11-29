@@ -1,0 +1,181 @@
+
+h1 
+{
+    color: red;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 50px;
+}
+#Dangky{
+    position: absolute;
+    right: 280px;
+    top: 40px;
+    background-color: red;
+    padding-left: 80px;
+    color: aliceblue;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#Dangnhap{
+    position: absolute;
+    right: 40px;
+    background-color: black;
+    color: aliceblue;
+    top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header
+{
+    background-color: #1c1b1b;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-image: url(https://cdn.tgdd.vn//GameApp/1309690//Top-phim-chieu-rap-Viet-Nam-hay-nhat-thang-06-2021-800x450.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 170px;
+    background-size: cover;
+}
+.header .nav
+{
+    min-height: 30px;
+   background-color: rgb(54, 54, 55);
+   display: flex;
+   justify-content: center;
+}
+.header .nav .nav-item
+{
+    color: aliceblue;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 110px;
+}
+
+.body
+{
+    background-color: #1c1b1b;
+    position: relative;
+    width: 100%;
+    height: 1500px;
+}
+.nav1
+{
+    min-height: 30px;
+   background-color: rgb(54, 54, 55);
+   display: flex;
+   justify-content: center;
+}
+.nav-item1
+{
+    color: aliceblue;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 110px;
+}
+
+.Khung
+{
+    width: 400px;
+    height: 500px;
+    background-color: #d03f3f;
+    position: relative;
+    left: 100px;
+    top: 200px;
+    background-image: url(https://bazaarvietnam.vn/wp-content/uploads/2022/03/Harpers-Bazaar-Phim-chieu-rap-thang-4-2022-BATMAN-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.underKhung
+{
+    background-color: #3f3f3f32;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 500px;
+}
+h3{
+    padding-left: 150px;
+    color: aliceblue;
+    font-size: 30px;
+}
+p{
+    color: aliceblue;
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 1;
+}
+.Footer
+{
+    background-color: #949494;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Footer1
+{
+    padding-left: 0;
+    margin: auto 16;
+}
+.item{
+    margin: 0 8px;
+    list-style: none;
+    padding-left: 100px;
+    font-size: 40px;
+    color: aliceblue;
+}
+.Footer2 li
+{
+    display: inline-block;
+    padding-top: 70px;
+}
+.Footer3 li
+{
+    margin-top: 50px;
+}
+.Footer2 h1{
+    padding-left: 150px;
+}
+ul.products
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul.products li img{
+    max-width: 100%;
+    height: auto;
+}
+#wrapper
+{
+    margin: 0px auto;
+    max-width: 2000px;
+    margin-top: 100px;
+    padding-right: 100px;
+   
+}
+.product-info ul li
+{
+    color: aliceblue;
+    padding-left:70px;
+    font-size: 20px;
+
+}
+.product-info #name
+{
+    color: #d03f3f;
+    font-size: 30px;
+    padding-left: 170px;
+    padding-bottom: 10px;
+}
+.products ul li
+{
+    flex-basis: 10%;
+    box-sizing: border-box;
+}

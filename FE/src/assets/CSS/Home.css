@@ -1,4 +1,11 @@
 
+.background
+{
+    background-color: #292828;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
 h1 
 {
     color: rgba(255, 0, 0, 0.715);
@@ -66,7 +73,7 @@ h1
 
 .nav1
 {
-    min-height: 30px;
+    min-height: 10px;
    background-color: rgb(54, 54, 55);
    display: flex;
    justify-content: center;
@@ -126,8 +133,8 @@ h1
 #wrapper
 {
     max-width: 2100px;
-    margin: 0 auto;
-    
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 ul.products{
     list-style: none;
@@ -160,18 +167,19 @@ ul.products li .product-info a{
 ul.products li .product-info a.product-cat
 {
     font-size: 32px;
-    color: #000000;
+    color: #ddd9d9;
+    margin-top: 15px;
     padding: 0px 100px;
 }
 ul.products li .product-info a.product-theloai
 {
-    color: #292828;
+    color: #b1afaf;
     font-size: 22px;
     padding-top: 10px;
 }
 ul.products li .product-info a.product-thoiluong
 {
-    color: #292828;
+    color: #b1afaf;
     font-size: 22px;
     padding-bottom: 20px;
 }

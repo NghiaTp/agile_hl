@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet"; // Thêm React Helmet để quản lý thẻ head
 import "../CSS/Home.css";
+import image3 from ".../public/image3.jpg";
 
 const Header = () => (
   <header className="header">
@@ -94,7 +95,7 @@ const Footer = () => (
 
 const Home = () => {
   const products = Array(8).fill({
-    imgSrc: "/FE/public/image3.jpg",
+    imgSrc: image3,
     name: "Mortal Kombat",
     category: "Hành Động",
     genre: "Hành Động, Máu me",
